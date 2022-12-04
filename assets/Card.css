@@ -1,0 +1,53 @@
+.mycard {
+    width: 20rem;
+    height: 10rem;
+    border: 0;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+	margin-top: 1px;
+	margin-bottom: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.mycard Img {
+	height: 10rem;
+	width: 10rem;
+    margin-left: 0rem;
+}
+
+.mycard-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.0625rem;
+}
+
+.mycard-party {
+    color: #929FB1;
+    margin-bottom: 0.0625rem;
+}
+
+.mycard-text {
+    font-size: 2.25rem;
+    margin-bottom: 0rem;
+}
+
+.mycard-kpi {
+    color: #929FB1;
+    margin-top:-0.25rem;
+    font-size: 0.625rem;
+    margin-bottom: 10px;
+}
+
+.mycard-bottom {
+    color: #929FB1;
+    font-size: 0.625rem;
+    margin: 1.125rem -7rem auto auto;
+}
+
+.mycards {
+    margin-top: 1rem;
+}
+
+.mycard-description{
+    margin-top: 10px;
+}

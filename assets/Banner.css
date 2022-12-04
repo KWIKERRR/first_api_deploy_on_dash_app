@@ -1,0 +1,20 @@
+.banner{
+	color: black;
+	text-align: right;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+	background-color: aquamarine;
+	margin: 0;
+}
+
+.banner h1{
+	padding-left: 0px;
+}
+
+.banner Img{
+	height: 100px;
+	width: 100px;
+}
