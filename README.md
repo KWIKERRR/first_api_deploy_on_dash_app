@@ -1,4 +1,4 @@
-#### Welcome to our first api in python deployed with a Dash app !
+### Welcome to our first api in python deployed with a Dash app !
 
 For the requirements, see requirements.txt
 
@@ -17,7 +17,7 @@ You will see :
 
 Follow the url and ...
 
-###### GG ! You have deploy your api with 
+##### GG ! You have deploy your api with 
 
 
 Dont hesitate to change the my_api.py file with your api ...
