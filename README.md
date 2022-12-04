@@ -1,12 +1,10 @@
 ### Welcome to our first api in python deployed with a Dash app !
 
-Please see requirements.txt.
+Check my_api.py in the scripts folder to see our api !
 
-Please check my_api.py in the script folder.
+Check app.py to see the app implementation ! 
 
-Our api requests imdb, so you need to have an imdb's account. 
-
-Please, change the IMDB_KEY by yours in app.py if you want to use our api :))
+###### Please, change the IMDB_KEY (imdb account requested) by yours in app.py if you want to use our api :))
 
 Then, try :
 ```
