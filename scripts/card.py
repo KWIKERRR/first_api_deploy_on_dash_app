@@ -1,3 +1,8 @@
+'''
+Our composants using Card in Dash boostrap components to nicely plot our api results
+'''
+
+
 import dash_bootstrap_components as dbc
 from dash import html
 

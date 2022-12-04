@@ -29,7 +29,7 @@ class Movie :
 
 class SearchMovie :
     '''
-    Object contains the content of the request to the SearchMovie imbd api.
+    SearchMovie Object contains the content of the request to the SearchMovie imbd api.
     This api gives all movie's information retrieved by imdb that correspond to the search name.
 
     Params :
@@ -52,7 +52,7 @@ class SearchMovie :
 
 class SearchRate :
     '''
-    Object contains the content of the request to the Ratings imbd api.
+    Search Rate Object contains the content of the request to the Ratings imbd api.
     This api gives the movie's rate give by differents organism.
 
     Params : 
@@ -74,6 +74,7 @@ class RequestMovie :
     '''
     Our api constructed with two imdb api (SearchMovie and Ratings).
     Gives the first movie's informations and rate in the imdb dataset.
+    RequestMovie object contains the imdb key but can be called to have our api returns.
 
     Params :
     key : imdb account's key
