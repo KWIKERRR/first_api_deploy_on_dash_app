@@ -1,25 +1,32 @@
-### Welcome to our first api in python deployed with a Dash app !
+# Deploying Python API with Dash App
 
-##### Check my_api.py in the scripts folder to see our api !
+Welcome to our first API in Python, deployed with a Dash app! Explore the project by checking out the following files:
 
-##### Check app.py to see the app implementation ! 
+- `my_api.py` in the `scripts` folder contains the core of our API.
+- `app.py` showcases the implementation of the Dash app.
 
-###### Please, change the IMDB_KEY (imdb account requested) by yours in app.py if you want to use our api :))
+To get started, replace the placeholder `IMDB_KEY` in `app.py` with your IMDb account API key if you wish to use our API. Don't worry; it's easy to obtain one from the IMDb website.
 
-Then, try :
+After updating the IMDb key, run the following command:
+
+```bash
+python app.py
 ```
-$ python app.py
+
+You'll see a message like this:
+
+```bash
+ * Running on http://127.0.0.1:8050/
 ```
 
-You will see :
+Follow the provided URL in your web browser, and you should encounter the Dash app interface.
 
 ![image](https://user-images.githubusercontent.com/119404054/205507975-9faa8965-ec58-41e5-a186-ff17bb1ad20b.png)
 
-Follow the url and ...
+Congratulations! You've successfully deployed a Dash app with your API. Feel free to explore the app and interact with the provided features.
 
-#### GG ! You have deployed a dash app with your api !!!
+If you want to make changes to the API functionality, head to `my_api.py` and customize it to suit your needs. Once you're satisfied with the modifications, deploy your updated app to the web.
 
+To deploy to the web, consider using platforms like Heroku, AWS, or others that support Dash applications. Refer to their documentation for deployment instructions.
 
-Dont hesitate to change the my_api.py file with your api ...
-
-... and deploy it to the web !!!
+Happy coding! If you have any questions or encounter issues, don't hesitate to reach out and make this project your own.
